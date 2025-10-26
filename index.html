@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Horários — Colégio CEPIT</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Ícone -->
+  <link rel="icon" href="images/logo-cepit.png">
+
+  <!-- CSS custom -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+
+  <header class="py-3 border-bottom bg-light-header">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap">
+      <div class="d-flex align-items-center gap-3">
+        <img src="images/logo-cepit.png" alt="CEPiT" class="logo">
+        <div>
+          <h1 class="h4 mb-0">Colégio CEPIT</h1>
+          <small class="text-muted">Horários — Ano letivo</small>
+        </div>
+      </div>
+
+      <div class="d-flex gap-2 align-items-center ms-auto">
+        <select id="profSelect" class="form-select form-select-sm">
+          <option value="">Carregando professores / séries...</option>
+        </select>
+
+        <select id="daySelect" class="form-select form-select-sm">
+          <option value="all">Todos os dias</option>
+          <option value="monday">Segunda</option>
+          <option value="tuesday">Terça</option>
+          <option value="wednesday">Quarta</option>
+          <option value="thursday">Quinta</option>
+          <option value="friday">Sexta</option>
+        </select>
+
+        <button id="printBtn" class="btn btn-outline-dark btn-sm">Imprimir</button>
+        <button id="themeToggle" class="btn btn-dark btn-sm">Modo Escuro</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-4">
+    <div id="notice" class="mb-3 text-muted">Selecione um professor ou série para ver o horário.</div>
+
+    <div id="timetableArea" class="table-responsive shadow-sm rounded">
+      <!-- Tabelas serão injetadas aqui -->
+    </div>
+
+    <footer class="mt-5 text-center text-muted">
+      <small>Colégio CEPIT — cores oficiais aplicadas de forma neutra. Contato: secretaria@cepit.edu</small>
+    </footer>
+  </main>
+
+  <!-- Data + Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

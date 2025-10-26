@@ -1,0 +1,109 @@
+:root{
+  --cepit-red: #d32f2f;
+  --cepit-black: #212121;
+  --cepit-yellow: #fbc02d;
+  --bg-light: #f7f9fb;
+  --card-bg: #ffffff;
+  --muted: #6c757d;
+}
+
+/* Light mode */
+body.light{
+  background: var(--bg-light);
+  color: var(--cepit-black);
+}
+
+/* Dark mode */
+body.dark{
+  background: #0f1720;
+  color: #e6eef6;
+}
+
+header.bg-light-header{
+  background: linear-gradient(90deg, rgba(211,47,47,0.06), rgba(251,192,45,0.02));
+}
+
+.logo{
+  width:72px;
+  height:auto;
+  object-fit:contain;
+  border-radius:6px;
+  background:white;
+  padding:4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Table card wrapper */
+.table-root {
+  width:100%;
+  background: var(--card-bg);
+  border-radius:12px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.table-root table{
+  border-collapse: collapse;
+  width:100%;
+}
+
+.table-root thead th {
+  background: var(--cepit-black);
+  color: #fff;
+  padding:12px;
+  text-transform: uppercase;
+  font-weight:700;
+  font-size:0.90rem;
+  vertical-align:middle;
+  text-align:center;
+}
+
+.table-root tbody td {
+  border-top: 1px solid rgba(0,0,0,0.06);
+  padding:12px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:0.95rem;
+}
+
+/* Interval row */
+.interval-row td{
+  background: linear-gradient(90deg, rgba(0,0,0,0.02), rgba(0,0,0,0.01));
+  font-weight:700;
+  text-align:center;
+  padding:14px;
+}
+
+/* Accent colors for columns if needed */
+.table-root thead th.time-col{
+  background: var(--cepit-red);
+}
+.table-root thead th.day-col{
+  background: var(--cepit-black);
+}
+
+/* Dark mode tweaks */
+body.dark .table-root thead th{
+  background: #111827;
+  color: #f8fafc;
+}
+body.dark .table-root tbody td{
+  border-top: 1px solid rgba(255,255,255,0.03);
+}
+body.dark .logo{
+  background: #111827;
+}
+
+/* Print adjustments */
+@media print {
+  header, footer, #printBtn, #profSelect, #daySelect, #themeToggle { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  .table-root { box-shadow: none; border-radius: 0; }
+}
+
+/* Responsive smaller screens */
+@media (max-width: 768px){
+  header .container { gap: 12px; flex-direction:column; align-items:flex-start; }
+  .logo{ width:56px; }
+  .table-root thead th, .table-root tbody td { padding:8px; font-size:0.85rem; }
+}

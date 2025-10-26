@@ -1,0 +1,328 @@
+[
+  {
+    "label": "Infantil 1",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Roda de conversa","tuesday":"Roda de conversa","wednesday":"Roda de conversa","thursday":"Roda de conversa","friday":"Roda de conversa"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Inglês","tuesday":"Educação Física","wednesday":"Artes","thursday":"Coordenação motora","friday":"Projetos"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H30"},
+      {"aula":"3ª","horario":"9H30 - 10H","monday":"Livro didático","tuesday":"Livro didático","wednesday":"Livro didático","thursday":"Livro didático","friday":"Ed. Ambiental"},
+      {"aula":"4ª","horario":"10H - 10H50","monday":"Livro didático","tuesday":"Livro didático","wednesday":"Livro didático","thursday":"Livro didático","friday":"Ed. Ambiental"},
+      {"aula":"5ª","horario":"10H50 - 11H30","monday":"Livro didático","tuesday":"Livro didático","wednesday":"Livro didático","thursday":"Livro didático","friday":"Recreação"}
+    ]
+  },
+
+  {
+    "label": "Infantil 2",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Roda de conversa","tuesday":"Roda de conversa","wednesday":"Roda de conversa","thursday":"Roda de conversa","friday":"Roda de conversa"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Livro didático","tuesday":"Educação Física","wednesday":"Livro didático","thursday":"Livro didático","friday":"Inglês"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H30"},
+      {"aula":"3ª","horario":"9H30 - 10H","monday":"Livro didático","tuesday":"Coordenação motora","wednesday":"Artes","thursday":"Livro didático","friday":"Livro didático"},
+      {"aula":"4ª","horario":"10H - 10H50","monday":"Livro didático","tuesday":"Livro didático","wednesday":"Livro didático","thursday":"Livro didático","friday":"Livro didático"},
+      {"aula":"5ª","horario":"10H50 - 11H30","monday":"Livro didático","tuesday":"Livro didático","wednesday":"Ed. Ambiental","thursday":"Livro didático","friday":"Projetos"}
+    ]
+  },
+
+  {
+    "label": "Infantil 3",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Roda de conversa","tuesday":"Educação Física","wednesday":"Roda de conversa","thursday":"Roda de conversa","friday":"Roda de conversa"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Livro didático","tuesday":"Inglês","wednesday":"Livro didático","thursday":"Livro didático","friday":"Projetos"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H30"},
+      {"aula":"3ª","horario":"9H30 - 10H","monday":"Livro didático","tuesday":"Artes","wednesday":"Livro didático","thursday":"Livro didático","friday":"Caligrafia"},
+      {"aula":"4ª","horario":"10H - 10H50","monday":"Livro didático","tuesday":"Livro didático","wednesday":"Livro didático","thursday":"Ed. Ambiental","friday":"Caligrafia"},
+      {"aula":"5ª","horario":"10H50 - 11H30","monday":"Livro didático","tuesday":"Livro didático","wednesday":"Livro didático","thursday":"Ed. Ambiental","friday":"Recreação"}
+    ]
+  },
+
+  {
+    "label": "1º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Matemática","tuesday":"Português","wednesday":"Geografia","thursday":"Ed. Financeira e Empreendedorismo","friday":"Ed. Ambiental/Projetos"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Matemática","tuesday":"Português","wednesday":"Geografia","thursday":"Artes Cênicas","friday":"Artes"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H25"},
+      {"aula":"3ª","horario":"9H25 - 10H10","monday":"Int. Redação / Caligrafia","tuesday":"Ciências","wednesday":"Ciências","thursday":"Matemática","friday":"Português"},
+      {"aula":"4ª","horario":"10H10 - 11H","monday":"Inglês","tuesday":"Educação Física","wednesday":"Português","thursday":"Português","friday":"Caligrafia"},
+      {"aula":"5ª","horario":"11H - 11H45","monday":"Ciências","tuesday":"Ed. Financeira e Empreendedorismo","wednesday":"Português","thursday":"Português","friday":"Redação"}
+    ]
+  },
+
+  {
+    "label": "2º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"História","tuesday":"Ciências","wednesday":"Português","thursday":"Artes Cênicas","friday":"Int. Redação (Caligrafia/Leitura)"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"História","tuesday":"Ciências","wednesday":"Português","thursday":"Artes / Ed. Ambiental","friday":"Projetos"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H25"},
+      {"aula":"3ª","horario":"9H25 - 10H10","monday":"Geografia","tuesday":"Matemática","wednesday":"Int. Redação","thursday":"Matemática","friday":"Português"},
+      {"aula":"4ª","horario":"10H10 - 11H","monday":"Geografia","tuesday":"Matemática","wednesday":"Ed. Financeira e Empreendedorismo","thursday":"Matemática","friday":"Português"},
+      {"aula":"5ª","horario":"11H - 11H45","monday":"Educação Física","tuesday":"Inglês","wednesday":"Ed. Financeira e Empreendedorismo","thursday":"Matemática","friday":"Português"}
+    ]
+  },
+
+  {
+    "label": "3º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"História","tuesday":"Matemática","wednesday":"Artes Cênicas","thursday":"Ciências","friday":"Geografia"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"História","tuesday":"Matemática","wednesday":"Português","thursday":"Ciências","friday":"Geografia"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H25"},
+      {"aula":"3ª","horario":"9H25 - 10H10","monday":"Int. Redação / Caligrafia","tuesday":"Inglês","wednesday":"Português","thursday":"Matemática","friday":"Artes"},
+      {"aula":"4ª","horario":"10H10 - 11H","monday":"Educação Física","tuesday":"Inglês","wednesday":"Português","thursday":"Matemática","friday":"Português"},
+      {"aula":"5ª","horario":"11H - 11H45","monday":"Int. Redação / Projetos","tuesday":"Ed. Ambiental / Projetos","wednesday":"Ed. Financeira e Empreendedorismo","thursday":"Matemática","friday":"Português"}
+    ]
+  },
+
+  {
+    "label": "4º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Geografia","tuesday":"História","wednesday":"Inglês","thursday":"Matemática","friday":"Ed. Financeira e Empreendedorismo"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Geografia","tuesday":"História","wednesday":"Inglês","thursday":"Matemática","friday":"Ed. Física"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H25"},
+      {"aula":"3ª","horario":"9H25 - 10H10","monday":"Português","tuesday":"Matemática","wednesday":"Ciências","thursday":"Int. Redação / Caligrafia/Leitura","friday":"Português"},
+      {"aula":"4ª","horario":"10H10 - 11H","monday":"Português","tuesday":"Matemática","wednesday":"Ciências","thursday":"Artes","friday":"Português"},
+      {"aula":"5ª","horario":"11H - 11H45","monday":"Português","tuesday":"Matemática","wednesday":"Ciências","thursday":"Artes Cênicas","friday":"Ed. Ambiental"}
+    ]
+  },
+
+  {
+    "label": "5º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Geografia","tuesday":"História","wednesday":"Inglês","thursday":"Matemática","friday":"Ciências"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Geografia","tuesday":"História","wednesday":"Português","thursday":"Ciências","friday":"Geografia"},
+      {"aula":"INTERVALO","horario":"9H10 - 9H25"},
+      {"aula":"3ª","horario":"9H25 - 10H10","monday":"Int. Redação/Caligrafia","tuesday":"Inglês","wednesday":"Matemática","thursday":"Artes","friday":"Português"},
+      {"aula":"4ª","horario":"10H10 - 11H","monday":"Educação Física","tuesday":"Inglês","wednesday":"Português","thursday":"Matemática","friday":"Português"},
+      {"aula":"5ª","horario":"11H - 11H45","monday":"Int. Redação/Projetos","tuesday":"Ed. Ambiental/Projetos","wednesday":"Ed. Financeira e Empreendedorismo","thursday":"Matemática","friday":"Português"}
+    ]
+  },
+
+  {
+    "label": "6º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"História","tuesday":"Ciências","wednesday":"Matemática","thursday":"Matemática","friday":"Ensino das Artes"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"História","tuesday":"Ciências","wednesday":"Matemática","thursday":"Matemática","friday":"Ensino das Artes"},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"História","tuesday":"Ciências","wednesday":"Matemática","thursday":"Fil. e Projetos de Vida","friday":"Empreend./Ed. Financeira"},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"Português","tuesday":"Português","wednesday":"Artes Cênicas","thursday":"Geografia","friday":"Português"},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"Inglês","tuesday":"Português","wednesday":"Redação","thursday":"Geografia","friday":"Educação Física"},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"Inglês","tuesday":"Português","wednesday":"Redação","thursday":"Geografia","friday":"Educação Física"}
+    ]
+  },
+
+  {
+    "label": "7º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Educação Física","tuesday":"Português","wednesday":"Redação","thursday":"Ciências","friday":"Português"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Educação Física","tuesday":"Português","wednesday":"Redação","thursday":"Ciências","friday":"Português"},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"Inglês","tuesday":"Ensino das Artes","wednesday":"Artes Cênicas","thursday":"Ciências","friday":"Português"},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"História","tuesday":"Ensino das Artes","wednesday":"Matemática / Fil. e Projetos de Vida","thursday":"Geografia","friday":"Matemática"},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"História / Empreendimentos","tuesday":"Matemática","wednesday":"Matemática","thursday":"Geografia","friday":"Matemática"},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"História","tuesday":"Inglês","wednesday":"Matemática","thursday":"Matemática","friday":"Geografia"}
+    ]
+  },
+
+  {
+    "label": "8º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"Português","tuesday":"História","wednesday":"Educação Física","thursday":"Inglês","friday":"Matemática"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"Português","tuesday":"História","wednesday":"Educação Física","thursday":"Inglês","friday":"Matemática"},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"Português","tuesday":"História","wednesday":"Redação","thursday":"Artes Cênicas","friday":"Matemática"},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"Geografia / Empreend. e Ed. Financeira","tuesday":"Redação / Enem","wednesday":"Ciências","thursday":"Redação / ENEM","friday":"Ciências"},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"Geografia","tuesday":"Ensino das Artes","wednesday":"Português","thursday":"Filosofia","friday":"Ciências"},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"Geografia","tuesday":"Ensino das Artes","wednesday":"Português","thursday":"Projetos de Vida","friday":"Ciências"},
+      {"aula":"7ª","horario":"12H45 - 13H30","monday":"--------","tuesday":"--------","wednesday":"Matemática","thursday":"Matemática","friday":"--------"}
+    ]
+  },
+
+  {
+    "label": "9º Ano",
+    "type": "série",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"História","tuesday":"Ciências","wednesday":"Matemática","thursday":"Matemática","friday":"Ensino das Artes"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"História","tuesday":"Ciências","wednesday":"Matemática","thursday":"Matemática","friday":"Ensino das Artes"},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"História","tuesday":"Ciências","wednesday":"Matemática","thursday":"Filosofia / Projetos de Vida","friday":"Empreend. / Ed. Financeira"},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"Português","tuesday":"Português","wednesday":"Artes Cênicas","thursday":"Geografia","friday":"Português"},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"Inglês","tuesday":"Português","wednesday":"Redação","thursday":"Geografia","friday":"Educação Física"},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"Inglês","tuesday":"Português","wednesday":"Redação","thursday":"Geografia","friday":"Educação Física"}
+    ]
+  },
+
+  {
+    "label": "Professora Fátima Ferreira - Língua Portuguesa",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"9º","tuesday":"7º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"9º","tuesday":"7º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"9º","tuesday":"8º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"6º","tuesday":"6º","wednesday":"8º","thursday":"6º","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"6º","tuesday":"9º","wednesday":"9º","thursday":"","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"6º","tuesday":"9º","wednesday":"9º","thursday":"","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professora Frank - Ciências",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"6º","tuesday":"6º","wednesday":"9º","thursday":"9º","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"6º","tuesday":"6º","wednesday":"9º","thursday":"9º","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"6º","tuesday":"8º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"7º","tuesday":"8º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"7º","tuesday":"7º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"7º","tuesday":"7º","wednesday":"8º","thursday":"7º","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professora Lia - História, Filosofia e Projetos de Vida",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"6º","tuesday":"7º","wednesday":"8º","thursday":"9º","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"6º","tuesday":"7º","wednesday":"8º","thursday":"9º","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"6º","tuesday":"7º","wednesday":"6º","thursday":"9º","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"7º","tuesday":"8º","wednesday":"7º","thursday":"6º","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"7º","tuesday":"8º","wednesday":"9º","thursday":"9º","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"7º","tuesday":"8º","wednesday":"9º","thursday":"9º","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professor Antônio - Matemática",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"6º","tuesday":"6º","wednesday":"9º","thursday":"7º","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"6º","tuesday":"6º","wednesday":"9º","thursday":"7º","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"6º","tuesday":"8º","wednesday":"9º","thursday":"8º","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"7º","tuesday":"8º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"7º","tuesday":"7º","wednesday":"8º","thursday":"7º","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"7º","tuesday":"7º","wednesday":"8º","thursday":"7º","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professor Herbert - Geografia e Empreendedorismo / Ed. Financeira",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"8º","tuesday":"6º","wednesday":"6º","thursday":"9º","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"8º","tuesday":"6º","wednesday":"6º","thursday":"9º","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"8º","tuesday":"6º","wednesday":"6º","thursday":"9º","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"9º","tuesday":"9º","wednesday":"9º","thursday":"6º","friday":"7º"},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"9º","tuesday":"7º","wednesday":"9º","thursday":"6º","friday":"7º"},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"9º","tuesday":"6º","wednesday":"7º","thursday":"6º","friday":"7º"}
+    ]
+  },
+
+  {
+    "label": "Professora Karina Gabriela - Inglês",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"1º","tuesday":"4º","wednesday":"2º","thursday":"3º","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"3º","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"7º","tuesday":"9º","wednesday":"","thursday":"","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"6º","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"2º","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"6º","tuesday":"","wednesday":"","thursday":"","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professora Marília - Redação e Leitura",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"4º (10H10 às 11H)","tuesday":"1º (10H10 às 11H)","wednesday":"3º (10H10 às 11H)","thursday":"","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"6º","tuesday":"2º (11H às 11H45)","wednesday":"8º","thursday":"6º","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"6º","tuesday":"","wednesday":"","thursday":"","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professor Renato - Ensino das Artes",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"7º","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"7º","tuesday":"Leitura","wednesday":"9º Leitura","thursday":"","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"9º Leitura","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"9º ENEM","tuesday":"9º ENEM","wednesday":"","thursday":"","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"6º","tuesday":"8º","wednesday":"","thursday":"","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"6º","tuesday":"8º","wednesday":"","thursday":"","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professor Edem - Ensino das Artes (Infantil e 1º ao 5º)",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"INF.1","tuesday":"2º","wednesday":"3º","thursday":"","friday":""},
+      {"aula":"INTERVALO","horario":"9H10 - 9H25"},
+      {"aula":"3ª","horario":"9H25 - 10H10","monday":"INF.3 (9H30-10H)","tuesday":"INF.2 (9H30-10H)","wednesday":"1º","thursday":"4º","friday":""},
+      {"aula":"4ª","horario":"10H10 - 11H","monday":"5º","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"5ª","horario":"11H - 11H45","monday":"","tuesday":"","wednesday":"","thursday":"","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professora Raquel - Matemática (4º ao 5º Ano)",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"INF.1","tuesday":"2º","wednesday":"3º","thursday":"","friday":""},
+      {"aula":"INTERVALO","horario":"9H10 - 9H25"},
+      {"aula":"3ª","horario":"9H25 - 10H10","monday":"INF.3","tuesday":"INF.2","wednesday":"1º","thursday":"4º","friday":""},
+      {"aula":"4ª","horario":"10H10 - 11H","monday":"5º","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"5ª","horario":"11H - 11H45","monday":"5º","tuesday":"","wednesday":"","thursday":"","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professora Solange - Educação Física",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"1º","tuesday":"9º (teórica)","wednesday":"","thursday":"","friday":"6º (teórica)"},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"INF. 3","tuesday":"INF. 1","wednesday":"9º","thursday":"","friday":"6º"},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"5º (9H25 AS 10H10)","tuesday":"4º (9H25 AS 10H10)","wednesday":"","thursday":"","friday":"2º (9H25 AS 10H10)"},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"3º","tuesday":"","wednesday":"","thursday":"","friday":"8º (teórica)"},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"7º (teórica)","tuesday":"","wednesday":"","thursday":"","friday":"8º"},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"7º","tuesday":"","wednesday":"","thursday":"","friday":""}
+    ]
+  },
+
+  {
+    "label": "Professor Wagner - Artes Cênicas (1º ao 9º Ano)",
+    "type": "professor",
+    "table": [
+      {"aula":"1ª","horario":"7H30 - 8H20","monday":"7º (teórica)","tuesday":"INF.3","wednesday":"9º (teórica)","thursday":"8º","friday":""},
+      {"aula":"2ª","horario":"8H20 - 9H10","monday":"7º","tuesday":"INF.1 e 2","wednesday":"9º","thursday":"5º","friday":""},
+      {"aula":"3ª","horario":"9H10 - 10H","monday":"","tuesday":"","wednesday":"","thursday":"","friday":""},
+      {"aula":"INTERVALO","horario":"10H - 10H15"},
+      {"aula":"4ª","horario":"10H15 - 11H05","monday":"4º (10H15 AS 11H)","tuesday":"1º (10H15 AS 11H)","wednesday":"","thursday":"","friday":""},
+      {"aula":"5ª","horario":"11H05 - 11H55","monday":"2º (11H AS 11H45)","tuesday":"3º (11H AS 11H45)","wednesday":"8º (teórica)","thursday":"6º (teórica)","friday":""},
+      {"aula":"6ª","horario":"11H55 - 12H45","monday":"6º","tuesday":"","wednesday":"7º","thursday":"","friday":""}
+    ]
+  }
+]

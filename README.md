@@ -15,13 +15,18 @@ O site permite:
 ## 🧱 Estrutura de Pastas
 
 cepit-horarios/
-├── index.html # Página principal
-├── style.css # Estilos visuais
-├── script.js # Lógica do filtro e interatividade
+├── index.html
+├── horarios.html
+├── calendario.html
+├── style.css
+├── script.js
 ├── data/
-│ └── horarios.json # Dados extraídos dos horários oficiais (séries + professores)
-└── images/
-└── logo-cepit.png # Logotipo da escola
+│   ├── horarios.json (horarios das aulas)
+│   └── calendario.pdf (calendário anual)
+├── images/
+│   └── logo-cepit.png
+└── README.md
+
 
 
 ##🧠 Tecnologias utilizadas

@@ -2,64 +2,26 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Horários — Colégio CEPIT</title>
-
-  <!-- Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal Escolar — Colégio CEPIT</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Ícone -->
-  <link rel="icon" href="images/logo-cepit.png">
-
-  <!-- CSS custom -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="light">
+  <div class="container text-center py-5">
+    <img src="images/logo-cepit.png" class="logo mb-4" alt="Logo CEPIT">
+    <h1 class="mb-4">Portal Escolar — Colégio CEPIT</h1>
+    <p class="lead mb-5 text-muted">Selecione uma das opções abaixo:</p>
 
-  <header class="py-3 border-bottom bg-light-header">
-    <div class="container d-flex align-items-center justify-content-between flex-wrap">
-      <div class="d-flex align-items-center gap-3">
-        <img src="images/logo-cepit.png" alt="CEPiT" class="logo">
-        <div>
-          <h1 class="h4 mb-0">Colégio CEPIT</h1>
-          <small class="text-muted">Horários — Ano letivo</small>
-        </div>
-      </div>
-
-      <div class="d-flex gap-2 align-items-center ms-auto">
-        <select id="profSelect" class="form-select form-select-sm">
-          <option value="">Carregando professores / séries...</option>
-        </select>
-
-        <select id="daySelect" class="form-select form-select-sm">
-          <option value="all">Todos os dias</option>
-          <option value="monday">Segunda</option>
-          <option value="tuesday">Terça</option>
-          <option value="wednesday">Quarta</option>
-          <option value="thursday">Quinta</option>
-          <option value="friday">Sexta</option>
-        </select>
-
-        <button id="printBtn" class="btn btn-outline-dark btn-sm">Imprimir</button>
-        <button id="themeToggle" class="btn btn-dark btn-sm">Modo Escuro</button>
-      </div>
-    </div>
-  </header>
-
-  <main class="container py-4">
-    <div id="notice" class="mb-3 text-muted">Selecione um professor ou série para ver o horário.</div>
-
-    <div id="timetableArea" class="table-responsive shadow-sm rounded">
-      <!-- Tabelas serão injetadas aqui -->
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+      <a href="horarios.html" class="btn btn-danger btn-lg px-4">📚 Visualizar Horários</a>
+      <a href="calendario.html" class="btn btn-warning btn-lg px-4">📅 Calendário Escolar 2025</a>
     </div>
 
-    <footer class="mt-5 text-center text-muted">
-      <small>Colégio CEPIT — cores oficiais aplicadas de forma neutra. Contato: secretaria@cepit.edu</small>
+    <footer class="mt-5 text-muted small">
+      <p>Centro de Educação Professora Irene Torres — CEPIT</p>
+      <p><a href="mailto:cepit@hotmail.com" class="text-muted">cepit@hotmail.com</a></p>
     </footer>
-  </main>
-
-  <!-- Data + Scripts -->
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
 </body>
 </html>

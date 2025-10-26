@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Horários — Colégio CEPIT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/logo-cepit.png" class="logo me-2" alt="Logo CEPIT"> CEPIT
+    </a>
+    <div class="ms-auto d-flex gap-2">
+      <a href="horarios.html" class="btn btn-sm btn-danger">Horários</a>
+      <a href="calendario.html" class="btn btn-sm btn-warning">Calendário</a>
+      <button id="themeToggle" class="btn btn-sm btn-outline-light">Modo Escuro</button>
+    </div>
+  </nav>
+
+  <main class="container py-4">
+    <h2 class="mb-4 text-center">Horários de Aula — Colégio CEPIT</h2>
+
+    <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+      <select id="profSelect" class="form-select w-auto">
+        <option value="">Carregando...</option>
+      </select>
+
+      <select id="daySelect" class="form-select w-auto">
+        <option value="all">Todos os dias</option>
+        <option value="monday">Segunda</option>
+        <option value="tuesday">Terça</option>
+        <option value="wednesday">Quarta</option>
+        <option value="thursday">Quinta</option>
+        <option value="friday">Sexta</option>
+      </select>
+
+      <button id="printBtn" class="btn btn-outline-dark">Imprimir</button>
+    </div>
+
+    <div id="notice" class="mb-3 text-muted text-center">Selecione um professor ou série para visualizar.</div>
+    <div id="timetableArea" class="table-responsive"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="light">
+<body class="light d-flex flex-column min-vh-100">
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
@@ -21,29 +21,31 @@
     </div>
   </nav>
 
-  <main class="container py-4">
-    <h2 class="mb-4 text-center">Horários de Aula — Colégio CEPIT</h2>
+  <main class="container py-4 flex-grow-1">
+    <h2 class="mb-4 text-center fw-bold">Horários de Aula — Colégio CEPIT</h2>
 
     <div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
       <select id="profSelect" class="form-select w-auto">
         <option value="">Carregando...</option>
       </select>
-
-      <select id="daySelect" class="form-select w-auto">
-        <option value="all">Todos os dias</option>
-        <option value="monday">Segunda</option>
-        <option value="tuesday">Terça</option>
-        <option value="wednesday">Quarta</option>
-        <option value="thursday">Quinta</option>
-        <option value="friday">Sexta</option>
-      </select>
-
-      <button id="printBtn" class="btn btn-outline-dark">Imprimir</button>
+      <button id="printBtn" class="btn btn-outline-dark">🖨️ Imprimir Horário</button>
     </div>
 
-    <div id="notice" class="mb-3 text-muted text-center">Selecione um professor ou série para visualizar.</div>
+    <div id="notice" class="mb-3 text-muted text-center">
+      Selecione um professor ou série para visualizar o horário.
+    </div>
+
     <div id="timetableArea" class="table-responsive"></div>
   </main>
+
+  <footer class="footer-cepit text-center py-3 mt-auto">
+    <div class="container">
+      <p class="mb-1 fw-bold text-uppercase">Centro de Educação Professora Irene Torres — CEPIT</p>
+      <p class="mb-0 small text-muted">
+        Desenvolvido com 💻 por <a href="https://github.com/tobraga" target="_blank" class="link-dev">Max Braga</a>
+      </p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

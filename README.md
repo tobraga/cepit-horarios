@@ -14,3 +14,42 @@ O site permite:
 
 ## 🧱 Estrutura de Pastas
 
+cepit-horarios/
+├── index.html # Página principal
+├── style.css # Estilos visuais
+├── script.js # Lógica do filtro e interatividade
+├── data/
+│ └── horarios.json # Dados extraídos dos horários oficiais (séries + professores)
+└── images/
+└── logo-cepit.png # Logotipo da escola
+
+
+##🧠 Tecnologias utilizadas
+
+- HTML5 / CSS3 / JavaScript
+- Bootstrap 5.3
+- Modo escuro/claro com localStorage
+- Responsividade total para qualquer dispositivo
+- JSON para os dados (sem necessidade de backend)
+
+## ✨ Recursos disponíveis
+Recurso	| Descrição
+:------:|:--------------|
+|🔍 |Filtro de professor/série	Exibe apenas o horário desejado|
+|🗓️ |Filtro de dia da semana	Mostra apenas as aulas do dia selecionado|
+|🌞|🌙 Modo claro/escuro	Alternância manual, salva preferência|
+|🖨️ |Impressão	Botão imprime o horário visível|
+|📱| Layout responsivo	Funciona bem em desktop, tablet e celular|
+|🏫 | Cores institucionais	Preto, vermelho e amarelo, aplicadas com neutralidade|
+
+
+
+## 📩 Contato
+
+- Colégio CEPIT
+- - Secretaria: secretaria@cepit.edu
+
+- Site: https://cepit.edu.br
+ (se houver)
+- Desenvolvido com 💻 por Max Braga
+
